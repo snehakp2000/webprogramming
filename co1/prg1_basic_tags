@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Basic tag</title>
+</head>
+<body bgcolor="yellow">
+<h1><i><font color="blue">MCA<font></i></h1>
+<p><b><font color="red">Master of computer application</b> is a type of <i>postgraduate academic master's degree</i>
+The programme is a blend of both theorectical and practical knowledge.</font></p>
+<p> Students pursuing an <b>MCA</b>programme would have the option to choose from from the following specialisation:
+<ul>
+<li>Application software</li>
+<li>Hardware Technology</li>
+<li>Internet</li>
+<li>Management Information Systems</li>
+<li>Networking</li>
+</ul>
+</p>
+<p>
+<h2><font color="green">ELIGIBILITY criteria for MCA</font></h2>
+According to AICTE,to pursue an MCA course candicates must have pursued BCA/Bsc/Bcom/BA degree with Mathematics  as one of 
+subject at 10+2 level or at graduation
+</p>
+</font>
+</body>
+</html>
