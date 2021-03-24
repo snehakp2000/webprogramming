@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>reg form</title>
+</head>
+<body bgcolor="yellow">
+<form name="frm1">
+<h1><center>REGISTRATION FORM</center></h1>
+<table align="center">
+<tr>
+<td>First name:</td>
+<td><input type="text" name="txt1"></td>
+</tr>
+<tr>
+<td>Last name:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Select your Gender:</td>
+<td>Male<input type="radio" name="g" value="male">
+Female<input type="radio" name="g" value="female"></td>
+</tr>
+<tr>
+<td>Date of birth</td>
+<td><input type="date" ></td>
+</tr>
+<tr>
+<td>Select Your Course</td>
+<td>
+<select name="course">
+<option value="1" >Bsc</option>
+<option value="2">BA/Bcom</option>
+<option value="3">Deploma</option>
+<option value="4">+2</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Select the languages that you know</td>
+<td>
+Malayalam<input type="checkbox" value="checked"></br>
+English<input type="checkbox" value="checked"><br>
+Hindi<input type="checkbox" value="checked">
+</td>
+</tr>
+<tr>
+<td>
+Enter your Email id</td>
+<td><input type="email" id="email"><//td>
+</tr>
+<tr>
+<td>
+<center><button type="submit" value="submit" >submit</button></center>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+ 
+
