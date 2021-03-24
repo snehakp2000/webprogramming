@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>image mapping</title>
+</head>
+<body bgcolor="yellow">
+<table border="5">
+<tr>
+<th>MCA FIRST SEMESTER </th>
+</tr>
+<tr>
+<td>
+<a href="subjects.html" >Subjects</a></td>
+</tr>
+<tr>
+<td>
+<img src="book.jpeg" width="200" height="300" alt=" " usemap="#link">
+<map name="link">
+<area shape="rectangle" coords="300,200,400,600" alt=" " href="books.html">
+</map>
+<br>click above image to see Textbooks of each Subjects
+</td>
+</tr>
+</table>
+<body>
+</html>
+
+
