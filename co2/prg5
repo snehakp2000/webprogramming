@@ -1,0 +1,19 @@
+<html>
+<body>
+<center>
+<h1 id="txt">NATURE</h1>
+<img id="img1" onmouseover="myfunction1()" onmouseout="myfunction2()"
+src="water.jpg">
+<script>
+function myfunction1(){
+document.getElementById("img1").src="book.jpeg";
+document.getElementById("txt").innerHTML="BOOK";
+}
+function myfunction2(){
+document.getElementById("img1").src="water.jpg";
+document.getElementById("txt").innerHTML="NATURE";
+}
+</script>
+</center>
+</body>
+</html>
