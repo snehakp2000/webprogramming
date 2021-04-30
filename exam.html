@@ -1,0 +1,45 @@
+<html>
+   <head>
+     <title>javascript bitwise operators</title>
+   </head>
+   <body bgcolor="yellow">
+     <h1><font color="green">JAVASCRIPT BITWISE OPERATIONS</font></h1>
+   <h2>performing bitwise operation AND on 5 and 1</h2>
+   <p id="and"></p>
+   <h2>performing bitwise operation OR on 6 and 1</h2>
+   <p id="or"></p>
+   <h2>performing bitwise operation XOR on 5 and 3</h2>
+   <p id="xor"></p>
+   <h2>performing bitwise operation NOT on 5</h2>
+   <p id="not"></p>
+   <h2><u>Performing  bitwise operations AND,XOR,OR on a pair of bits by taking numbers 12 and 25</u></h2>
+   <h2>Performing  bitwise operations AND on pair of bits by taking numbers 12 and 25</h2>
+   <p id="andpai"></p>
+   <h2>Performing  bitwise operations OR on pair of bits by taking numbers 12 and 25</h2>
+   <p id="orpai"></p>
+   <h2>Performing  bitwise operations XOR on pair of bits by taking numbers 12 and 25</h2>
+   <p id="xorpai"></p>
+   <a href="sample.html"><h2>More BitWise operationss</h2></a>
+   <script>
+     var x=5 & 1;
+     var y=6 | 1;
+     var z=5 ^ 3;
+     var a=~5;
+     let c=12;
+     let b=25;
+     document.getElementById("and").innerHTML=x;
+     document.getElementById("or").innerHTML=y;
+     document.getElementById("xor").innerHTML=z;
+     document.getElementById("not").innerHTML=a;  
+     result=c & b;
+     resultor=c | b;
+     resultxor=c ^ b;
+     resultle=c << b;
+     resultright=c >> b;
+     document.getElementById("andpai").innerHTML=result;
+     document.getElementById("orpai").innerHTML=resultor;
+     document.getElementById("xorpai").innerHTML=resultxor;  
+  </script>
+  </body>
+</html>
+   
